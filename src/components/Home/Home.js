@@ -1,10 +1,14 @@
 import React from 'react';
 import carImg from '../../assets/images/car-1.jpg';
+import useReviews from '../hooks/useReviews';
+import ReviewCard from '../ReviewCard/ReviewCard';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    console.log(reviews);
     return (
-        <div className='bg-no-repeat bg-cover bg-fixed'>
-            <div className="container mx-auto h-[90vh] flex justify-between items-center">
+        <div className='container mx-auto'>
+            <div className="h-[90vh] flex justify-between items-center">
                 <div className='w-[60%]'>
                     <h1 className='text-3xl md:text-6xl xl:text-8xl text-indigo-600 uppercase font-bold'>Are you thinking to buy a car?</h1>
                     <h1 className='text-2xl md:text-5xl xl:text-7xl uppercase'>Just see our reviews befor you buy a car</h1>
@@ -12,6 +16,14 @@ const Home = () => {
                 </div>
                 <div>
                     <img src={carImg} alt="" className='h-64 md:h-96 xl:h-[600px] rounded-lg'/>
+                </div>
+            </div>
+            <div>
+                <h1 className='text-3xl text-center my-10 text-indigo-500 font-bold uppercase'>What Peoples Says!</h1>
+                <div className='grid grid-cols-3 gap-12'>
+                    {
+                        reviews.map(review => <ReviewCard key={review.id} review={review}></ReviewCard>)
+                    }
                 </div>
             </div>
         </div>
