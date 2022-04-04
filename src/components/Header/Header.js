@@ -12,6 +12,7 @@ const Header = () => {
                     <ul className='flex'>
                         <li className='ml-4 py-[15px]'><NavLink to="/" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>Home</NavLink></li>
                         <li className='ml-4 py-[15px]'><NavLink to="/reviews" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>Reviews</NavLink></li>
+                        <li className='ml-4 py-[15px]'><NavLink to="/dashboard" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>Dashboard</NavLink></li>
                         <li className='ml-4 py-[15px]'><NavLink to="/blogs" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>Blogs</NavLink></li>
                         <li className='ml-4 py-[15px]'><NavLink to="/about" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>About</NavLink></li>
                         <li className='ml-4 py-[15px]'><NavLink to="/contact" className={({ isActive })=> isActive ? "py-4 px-1 border-b-2 border-b-indigo-400 bg-indigo-200" : "py-2 px-1"}>Contact</NavLink></li>
