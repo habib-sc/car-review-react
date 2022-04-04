@@ -1,0 +1,21 @@
+[
+    {
+      "id": "b1",
+      "title": "What is the Purpose of Context API in reactjs?",
+      "text": "The Context API is a component structure provided by the React framework. It helps us to share data across all levels of the application. It's solved the problem of prop drilling. Using Context API we can send data parent comoponent to any child comoponent without props. We can use this when we need to pass data directly without props"
+    },
+
+    {
+        "id": "b2",
+        "title": "What is semantic tag?",
+        "text": "A semantic element clearly describes its meaning to both the browser and the developer. For example, semantic elements the <h1>, <table>, <article> which are clearly define their content. On the other hand non-semantic elements: <div> and <span> - Tells nothing about its content. Semantic tags makes the HTML more comprehensible by better defining the different sections and layout of web pages. It makes web pages more informative and adaptable"
+      },
+
+      {
+        "id": "b3",
+        "title": "What is inline, block and inline-block elements?",
+        "text": "Inline element displays the element inline or on the same line. inline elements do not start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have No effects. For example of inline elements are <span>, <a>, <img> etc. Inline-block element essentially the same thing as inline, except that you can set height and width values. Block element starts on a new line and takes up the full width available. For example, <div>, <h1>, <p>, <li> etc."
+      }
+
+  ]
+  
