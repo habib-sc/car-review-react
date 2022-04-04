@@ -8,7 +8,7 @@ const Reviews = () => {
         <div className='container mx-auto mb-10'>
             <div>
                 <h1 className='text-3xl text-center my-10 text-indigo-500 font-bold uppercase'>What Peoples Says!</h1>
-                <div className='grid grid-cols-3 gap-12'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-12'>
                     {
                         reviews.map(review => <ReviewCard key={review.id} review={review}></ReviewCard>)
                     }
