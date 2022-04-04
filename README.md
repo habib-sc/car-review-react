@@ -2,11 +2,11 @@
 [Live Link](https://car-review-point.netlify.app/).
 
 ### Some Features
-    * Single Page Application
-    * Customers Reviews
-    * Dashboard with charts
-    * Active navigation
-    * Responsive Design
+  * Single Page Application
+  * Customers Reviews
+  * Dashboard with charts
+  * Active navigation
+  * Responsive Design
 
 # Getting Started with Create React App
 
