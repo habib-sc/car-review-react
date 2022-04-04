@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='border-b border-b-indigo-200 flex justify-center bg-white h-14 w-full sticky top-0'>
+        <div className='border-b border-b-indigo-200 flex justify-center bg-white sticky top-0'>
             <div className='container flex flex-wrap flex-col md:flex-row justify-between items-center'>
                 <div>
                     <h2 className='text-xl font-bold text-indigo-600 uppercase'>Car Review Point</h2>

@@ -8,9 +8,6 @@ Click this link [Live site](https://car-review-point.netlify.app/).
   * Active navigation
   * Responsive Design
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
