@@ -1,5 +1,5 @@
 # Car Review Point
-[Live Link](https://car-review-point.netlify.app/).
+Click this link[Live site](https://car-review-point.netlify.app/).
 
 ### Some Features
   * Single Page Application
