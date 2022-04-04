@@ -12,7 +12,7 @@ const Dashboard = () => {
     console.log(chartData);
     return (
         <div className='container mx-auto grid grid-cols-2 my-5 gap-12'>
-            <div className='h-96 w-[500px] border border-indigo-200 rounded-lg pb-8'>
+            <div className='h-96 border border-indigo-200 rounded-lg pb-8'>
                 <h1 className='text-center text-xl text-indigo-600 font-semibold'>Monthly Sales</h1>
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart
@@ -35,7 +35,7 @@ const Dashboard = () => {
                     </LineChart>
                 </ResponsiveContainer>
             </div>
-            <div className='h-96 w-[500px] border border-indigo-200 rounded-lg pb-8'>
+            <div className='h-96 border border-indigo-200 rounded-lg pb-8'>
                 <h1 className='text-center text-xl text-indigo-600 font-semibold'>Investment VS Revenue</h1>
             <ResponsiveContainer width="100%" height="100%">
                 <BarChart
@@ -59,7 +59,7 @@ const Dashboard = () => {
                 </BarChart>
             </ResponsiveContainer>
             </div>
-            <div className='h-96 w-[500px] border border-indigo-200 rounded-lg pb-8'>
+            <div className='h-96 border border-indigo-200 rounded-lg pb-8'>
                 <h1 className='text-center text-xl text-indigo-600 font-semibold'>Investment VS Sales</h1>
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart
@@ -83,7 +83,7 @@ const Dashboard = () => {
                     </LineChart>
                 </ResponsiveContainer>
             </div>
-            <div className='h-96 w-[500px] border border-indigo-200 rounded-lg pb-8'>
+            <div className='h-96 border border-indigo-200 rounded-lg pb-8'>
                 <h1 className='text-center text-xl text-indigo-600 font-semibold'>Sales VS Revenue</h1>
                 <ResponsiveContainer width="100%" height="100%">
                     <AreaChart
